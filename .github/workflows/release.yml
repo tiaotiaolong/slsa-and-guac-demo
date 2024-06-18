@@ -3,7 +3,8 @@ name: Release
 on:
   # For manual tests.
   push:
-	branches: [ 'main', 'develop' ]
+  branches:
+	- main
 env:
   IMAGE_NAME: ${{ vars.DOCKER_HUB_USERNAME }}/slsa-and-guac-demo
 
