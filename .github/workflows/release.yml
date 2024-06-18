@@ -3,9 +3,7 @@ name: Release
 on:
   # For manual tests.
   push:
-    tags:
-      - "*" # triggers only if push new tag version, like `0.8.4` or else
-
+	branches: [ 'main', 'develop' ]
 env:
   IMAGE_NAME: ${{ vars.DOCKER_HUB_USERNAME }}/slsa-and-guac-demo
 
