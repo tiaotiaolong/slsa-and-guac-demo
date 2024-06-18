@@ -1,2 +1,2 @@
 # slsa-and-guac-demo
-A demo of SLSA and GUAC
+ddA demo of SLSA and GUAC
